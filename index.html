@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:image" content="https://wldks1122.github.io/jianconnect/images/시그니처썸네일.png" />
-  <meta property="og:description" content="👉 여기를 눌러주세요" />
+  <meta property="og:image" content="https://wldks1122.github.io/joinconnect/images/썸네일.png" />
+  <meta property="og:description" content="👉 여기를 눌러주세요\n👉 가입코드: 63" />
 
-  <title>시그니처 로그인</title>
+  <title>이지안 무료가입</title>
   <style>
     body {
       font-family: sans-serif;
@@ -40,15 +40,15 @@
   <h2>🔓 외부 브라우저에서 열어주세요</h2>
   <p>카카오톡 안에서는 일부 기능이 제한될 수 있어요.<br>아래 버튼을 눌러 외부 브라우저에서 다시 열어주세요!</p>
 
-  <a id="btn-samsung" class="btn" href="intent://signature645o.com/login#Intent;scheme=https;package=com.sec.android.app.sbrowser;end;">
+  <a id="btn-samsung" class="btn" href="intent://signature645o.com/join#Intent;scheme=https;package=com.sec.android.app.sbrowser;end;">
     📱 삼성인터넷으로 열기
   </a>
 
-  <a id="btn-chrome" class="btn" href="intent://signature645o.com/login#Intent;scheme=https;package=com.android.chrome;end;">
+  <a id="btn-chrome" class="btn" href="intent://signature645o.com/join#Intent;scheme=https;package=com.android.chrome;end;">
     🌐 크롬으로 열기
   </a>
 
-  <a id="btn-ios" class="btn" href="https://signature645o.com/login">
+  <a id="btn-ios" class="btn" href="https://signature645o.com/join">
     🍎 iPhone: 사파리에서 열기
   </a>
 
@@ -60,7 +60,7 @@
 
     if (isKakao && isAndroid) {
       // 삼성인터넷 우선 자동 시도
-      location.href = "intent://signature645o.com/login#Intent;scheme=https;package=com.sec.android.app.sbrowser;end;";
+      location.href = "intent://signature645o.com/join#Intent;scheme=https;package=com.sec.android.app.sbrowser;end;";
       // 실패 대비 버튼 표시
       setTimeout(() => {
         document.getElementById('btn-samsung').style.display = 'block';
@@ -70,7 +70,7 @@
       document.getElementById('btn-ios').style.display = 'block';
     } else {
       // 외부 브라우저일 경우 바로 이동
-      location.href = "https://signature645o.com/login";
+      location.href = "https://signature645o.com/join";
     }
   </script>
 </body>
